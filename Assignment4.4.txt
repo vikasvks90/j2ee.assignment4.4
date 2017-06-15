@@ -1,0 +1,29 @@
+Problem Statement1:
+a. SELECT CNAME FROM CUSTOMER
+   GROUP BY CNAME
+   HAVING COUNT(*) > 2;
+
+b. SELECT * FROM CUSTOMER
+   GROUP BY CNAME;
+
+C. SELECT * FROM CUSTOMER 
+   ORDER BY CNAME;
+   
+   
+Problem Statement2:
+Explanation:
+a. HAVING: This is used to provide a condition with aggregate functions.
+Example: SELECT CNAME FROM CUSTOMER GROUP BY CNAME HAVING COUNT(*) > 2;
+
+b. ORDER BY: This is used to sort the result-set in ascending or descending order.
+Example: SELECT CNAME FROM CUSTOMER ORDER BY CNAME DESC;
+
+c. GROUP BY: This statement is often used with aggregate functions (COUNT, MAX, MIN, SUM, AVG) to group the result-set by one or more columns.
+Example: SELECT CNAME,COUNT(*) AS COUNT FROM CUSTOMER GROUP BY CNAME;
+
+
+Problem Statement3:
+a. TRUNCATE TABLE CUSTOMER;
+b. ALTER TABLE ACCOUNT RENAME TO CUSTOMER_ACCOUNT;
+C. DROP TABLE CUSTOMER;
+D. DROP TABLE CUSTOMER_ACCOUNT;
